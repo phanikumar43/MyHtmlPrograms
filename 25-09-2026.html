@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25-09-2026</title>
+</head>
+<body>
+    <!-- Today Topics Are-->
+     <!--
+        1.CSS
+            1.Inline CSS
+            2.Internal CSS
+            3.External CSS
+     -->
+
+     <!-- 
+        What is CSS?
+        CSS stands for Cascading Style Sheets. It is used to style and layout web pages,
+        for example, to change the font, color, size and spacing of your content, split it into multiple columns, or add animations and other decorative features.
+
+        CSS Can be added to HTML elements in 3 ways:
+        1.Inline CSS
+        2.Internal CSS
+        3.External CSS
+
+        1.Inline CSS
+        Inline CSS is used to apply a unique style for a single element.
+         To use inline styles , add the style attribute to the relevant element. 
+         The style attribute can contain any CSS property.
+         Example:
+         <h1 style="color:blue;text-align:center;">This is a heading</h1>   
+
+         2.Internal CSS:-
+            Internal CSS is used to define a style for a single HTML page.
+            To use internal CSS, add a <style> element to the <head> section of the HTML page.
+            Example:
+            <head>
+                <style>
+                    body {
+                        background-color: lightblue;
+                    }
+                    h1 {
+                        color: white;
+                        text-align: center;
+                    }
+                    p {
+                        font-family: verdana;
+                        font-size: 20px;
+                    }
+                </style>
+            </head>
+
+            3.External CSS:-
+            External CSS is used to define the style for many HTML pages.
+            With an external style sheet, you can change the look of an entire website by changing just one file!
+            Each page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+            Example:
+            <head>
+                <link rel="stylesheet" href="mystyle.css">
+            </head>
+
+            what is id selectors?
+            The id selector uses the id attribute of an HTML element to select a specific element.
+            Example:
+            <style>
+                    <p id="para1">This is a paragraph.</p>
+                #para1{
+                    color: pink;
+                } 
+     -->
+            <style>
+                p{
+                    color: yellow
+                }
+                #para1{
+                    color: pink;
+                }
+            </style>
+</body>
+    <p style="color: blue;">This is a paragraph.</p>
+    <p style="color: red;">This is a paragraph.</p>
+    <p id="para1">This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+</html>
